@@ -8,10 +8,10 @@ Place all files in the same directory and run all the scripts independently, in 
 
 If you want to learn more about the Gossip protocol, this is where I got most of my information: https://nakamoto.com/gnutella/. 
 
-Node graph:
+# Node graph:
 ![Screenshot from 2023-01-21 22-10-19](https://user-images.githubusercontent.com/19730248/213887302-bb7fb3ba-741c-43f9-bf4a-727b711286bb.png)
 
-How it looks:
+# How it looks:
 https://user-images.githubusercontent.com/19730248/213887484-e54b85b9-e849-4ab5-9684-22d4b05c4afd.mp4
 
-[VIDEO] Code explanation: https://youtu.be/XR9BKhveduU. 
+# [VIDEO] Code explanation: https://youtu.be/XR9BKhveduU. 
