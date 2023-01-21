@@ -3,7 +3,7 @@ All the libraries used in the scripts come in the Python standard library alread
 
 To test the scripts, place all files in the same directory and run all the scripts independently in a different terminal window/session. To visualize this better, you can use a tool like Tmux or similar, which allows you to split the same terminal session in different panes like seen in the GIF below. Note that the Gossip.py file does not need to be run, only the Node_50xx.py do.
 
-You can try not to run certain nodes to observe how the nodes will react. If a node is not online, the other nodes will simply try to contact other nodes. If the node is not critical, then the message is going to be relayed to all nodes.
+You can try not to run certain nodes to observe how the nodes will react. If a node is not online, the other nodes will simply try to contact other nodes. If the node is not critical, then the message is going to be relayed to all nodes. You can also create new nodes and con change the connections however you like!
 
 # Limitations
 This is obviously a very barebones implementation of the Gossip protocol and is missing many features in terms of privacy, security, robustness etc. I have ideas on how to improve the implementation to make it more efficient, but that is still to come.
@@ -11,7 +11,9 @@ This is obviously a very barebones implementation of the Gossip protocol and is 
 This script uses a "connectionless connection" using the socket module. That means that the nodes are not communicating through a network.
 
 # Explanation
-If you want to learn more about the Gossip protocol, this is where I got most of my information: https://nakamoto.com/gnutella/. 
+If you want to learn more about the Gossip protocol, this is where I got most of my information: 
+  - [Gnutella: an Intro to Gossip](https://nakamoto.com/gnutella/)
+  - [Bitcoin's P2P Network](https://nakamoto.com/bitcoins-p2p-network/)
 
 # Node graph:
 
