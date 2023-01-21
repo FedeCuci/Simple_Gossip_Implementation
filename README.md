@@ -23,4 +23,6 @@ https://user-images.githubusercontent.com/19730248/213887484-e54b85b9-e849-4ab5-
 
 # The goal
 This is a simple implementation of the Gossip Protocol in Python. The goal of this small project is to learn how multiple nodes can communicate with each other in a decentralized way. The idea for the structure of this implementation comes from here: https://codereview.stackexchange.com/questions/95671/gossip-algorithm-in-distributed-systems/282643#282643.
-[VIDEO] Code explanation: https://youtu.be/XR9BKhveduU. 
+
+# Video explanation
+If you'd like to learn more about how the script works in video format, I have made a short video on it which I will have to re-record soon: https://youtu.be/XR9BKhveduU. 
