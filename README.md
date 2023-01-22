@@ -11,7 +11,7 @@ This is obviously a very barebones implementation of the Gossip protocol and is 
 The nodes communicate with each other in a [connectionless](https://en.wikipedia.org/wiki/Connectionless_communication) way using the socket module. In very simple terms, it simply means that, "The device at one end of the communication transmits data addressed to the other, without first ensuring that the recipient is available and ready to receive the data."
 
 # Explanation
-If you want to learn more about the Gossip protocol, this is where I got most of my information:
+The code in this script is fairly simple, however because it is the implementation of a protocol, to understand the code you must first understand the basics of how the protocol works. To build this, the main articles that helped me were these 2:
   - [Gnutella: an Intro to Gossip](https://nakamoto.com/gnutella/)
   - [Bitcoin's P2P Network](https://nakamoto.com/bitcoins-p2p-network/)
 
@@ -29,9 +29,9 @@ The goal of this small project is to learn how multiple nodes in a network can c
 # Video explanation
 If you'd like to learn more about how the script works, I have made a short [video](https://youtu.be/XR9BKhveduU) where I shortly run through the code. 
 
-# Where to go from here
+# Where to go from here & Further reading
 There are many ways this script can be improved/optimized. Some ideas are:
   - Instead of hardcoding the connected nodes, try to let the nodes find each other organically. Hint take a look at [Boostrap nodes](https://nakamoto.com/bitcoins-p2p-network/#:~:text=protocol%20requires%20an-,bootstrap%20node,-to%20usher%20you). This might require more knowledge of networking.
   - Is there a way to check if a node is malicious? How can you trust any node to give you reliable and correct information?
   - How can you prevent a node from spamming the network? Hint: Take a look at how Bitcoin does it using a [Reputation system.](https://nakamoto.com/bitcoins-p2p-network/#:~:text=Bitcoin%20uses%20a-,reputation%20system,-to%20deal%20with)
-  - How can you implement ["Diffusion"](https://nakamoto.com/bitcoins-p2p-network/#:~:text=a%20method%20called-,diffusion,-.%20In%20diffusion%2C%20instead) rather than the traditional propagation of messages?
+  - What is ["Diffusion"](https://nakamoto.com/bitcoins-p2p-network/#:~:text=a%20method%20called-,diffusion,-.%20In%20diffusion%2C%20instead)? How does it increase privacy and would you be able to implement it in this script?
