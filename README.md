@@ -33,5 +33,5 @@ If you'd like to learn more about how the script works, I have made a short [vid
 There are many ways this script can be improved/optimized. Some ideas are:
   - Instead of hardcoding the connected nodes, try to let the nodes find each other organically. Hint take a look at [Boostrap nodes](https://nakamoto.com/bitcoins-p2p-network/#:~:text=protocol%20requires%20an-,bootstrap%20node,-to%20usher%20you). This might require more knowledge of networking.
   - Is there a way to check if a node is malicious? How can you trust any node to give you reliable and correct information?
-  - How can you prevent a node from spamming the network?
+  - How can you prevent a node from spamming the network? Hint: Take a look at how Bitcoin does it using a [Reputation system.](https://nakamoto.com/bitcoins-p2p-network/#:~:text=Bitcoin%20uses%20a-,reputation%20system,-to%20deal%20with)
   - How can you implement ["Diffusion"](https://nakamoto.com/bitcoins-p2p-network/#:~:text=a%20method%20called-,diffusion,-.%20In%20diffusion%2C%20instead) rather than the traditional propagation of messages?
