@@ -5,26 +5,26 @@
 #### 🔧 Made with:
 ![](https://img.shields.io/badge/-Python-informational?style=flat&logo=Python&logoColor=white)
 
-[Installation and Usage](#installation&usage)
+[Installation and Usage](#installationandusage)
 •
 [Limitations](#limitations) 
 •
-[Explanation](#installation)
+[Explanation](#explanation)
 •
-[Node graph](#installation) 
+[Node graph](#nodegraph) 
 •
-[How it looks](#installation) 
+[Demo](#demo) 
 •
-[Motivation](#installation) 
+[Motivation](#motivation) 
 •
-[Demo](#installation) 
+[Where to go from here and Further Reading](#wheretogofromhereandfurtherreading) 
 
 </div>
 
 ## Installation and Usage
 All the libraries used in the scripts come from the Python standard library already, so there is no need to install external ones.
 
-To test the scripts, place all files in the same directory and run all the Node_50xx.py scripts independently in a different terminal window or session. To visualize this better, you can use a tool like Tmux or something similar that allows you to split the same terminal session into different panes, as seen in the short video below. Note that the `Gossip.py` file does not need to be run; only the Node_50xx.py do.
+To test the scripts, place all files in the same directory and run all the `Node_50xx.py` scripts independently in a different terminal window or session. To visualize this better, you can use a tool like Tmux or something similar that allows you to split the same terminal session into different panes, as seen in the short video below. Note that the `Gossip.py` file does not need to be run; only the `Node_50xx.py do`.
 
 You can try not to run certain nodes to observe how the nodes will react. If a node is not online and is not critical, the message is still going to be relayed to all nodes. You can also create new nodes and change the connections however you like!
 
@@ -52,7 +52,7 @@ The goal of this small project is to learn how multiple nodes in a network can c
 ## Demo
 If you'd like to learn more about how the script works, I have made a short [video](https://youtu.be/XR9BKhveduU) where I shortly run through the code. 
 
-## Where to go from here & Further reading
+## Where to go from here and Further reading
 There are many ways this script can be improved or optimized. Some ideas are:
   - Instead of hardcoding the connected nodes, try to let the nodes find each other organically. Hint take a look at [Boostrap nodes](https://nakamoto.com/bitcoins-p2p-network/#:~:text=protocol%20requires%20an-,bootstrap%20node,-to%20usher%20you). This might require more knowledge of networking.
   - Is there a way to check if a node is malicious? How can you trust any node to give you reliable and correct information?
