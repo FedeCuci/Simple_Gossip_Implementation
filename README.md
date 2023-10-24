@@ -21,12 +21,12 @@
 
 </div>
 
-## Installation & Usage
-All the libraries used in the scripts come in the Python standard library already, so no need to install external ones.
+## Installation and Usage
+All the libraries used in the scripts come from the Python standard library already, so there is no need to install external ones.
 
-To test the scripts, place all files in the same directory and run all the Node_50xx.py scripts independently in a different terminal window/session. To visualize this better, you can use a tool like Tmux or something similar that allows you to split the same terminal session in different panes like seen in the short video below. Note that the Gossip.py file does not need to be run, only the Node_50xx.py do.
+To test the scripts, place all files in the same directory and run all the Node_50xx.py scripts independently in a different terminal window or session. To visualize this better, you can use a tool like Tmux or something similar that allows you to split the same terminal session into different panes, as seen in the short video below. Note that the `Gossip.py` file does not need to be run; only the Node_50xx.py do.
 
-You can try not to run certain nodes to observe how the nodes will react. If a node is not online and is not critical, the message is still going to be relayed to all nodes. You can also create new nodes and change the connections however you like! 
+You can try not to run certain nodes to observe how the nodes will react. If a node is not online and is not critical, the message is still going to be relayed to all nodes. You can also create new nodes and change the connections however you like!
 
 ## Limitations
 This is obviously a very barebones implementation of the Gossip protocol and is missing many features in terms of privacy, security, robustness, etc. Below, I have listed some ways in which this implementation can be improved, but feel free to try whatever you like!
